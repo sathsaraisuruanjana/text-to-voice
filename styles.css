@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: -50px;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: aqua;
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: whitesmoke;
+    color: black;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    color: rgb(7, 7, 7);
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+button{
+    background: beige;
+    color: rebeccapurple;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
